@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@700&family=Inter:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/83961a5596.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <nav id="navigation">
+            <div>
+                <img id="stutern-logo" 
+                    src="https://miro.medium.com/max/803/1*zMLNlDX_DWJ780KIbiwoUA.png" 
+                    alt="StuternLogo">
+            </div>
+
+            <div id="navigation-container">
+                <div id="hamburger-menu">
+                    <button id="hamburger-btn">
+                        <div class="line" id="line-1"></div>
+                        <div class="line" id="line-2"></div>
+                        <div class="line" id="line-3"></div>
+                    </button>
+                </div>
+    
+                <div id="bg-container">
+                    <div id="bg-cover">
+                        <ul id="list">
+                            <li class="list_item" id="list_item-1">
+                                <a href="#" class="list_item-link">Courses <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="list-second" id="list-second-1">
+                                    <li><a href="#" class="list_item-sublink">UI/UX Design</a></li>
+                                    <li><a href="#" class="list_item-sublink">Software Development</a></li>
+                                    <li><a href="#" class="list_item-sublink">Data Science</a></li>
+                                </ul> 
+                            </li>
+
+                            <li class="list_item" id="list_item-2">
+                                <a href="#" class="list_item-link">For Employers <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="list-second" id="list-second-2">
+                                    <li><a href="#" class="list_item-sublink">Hire Stutern Trained Graduates</a></li>
+                                    <li><a href="#" class="list_item-sublink">Hire from wide pool</a></li>
+                                    <li><a href="#" class="list_item-sublink">Post a Job</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="list_item" id="list_item-3">
+                                <a href="#" class="list_item-link">For Talents <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="list-second" id="list-second-3">
+                                    <li><a href="#" class="list_item-sublink">Take a course</a></li>
+                                    <li><a href="#" class="list_item-sublink">Appy to a Job</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <div id="nav-button-container">
+                            <input 
+                                id="left-nav-btn" 
+                                type="button" 
+                                name="" 
+                                value="Log in"
+                            >
+            
+                            <input 
+                                id="right-nav-btn" 
+                                type="button" 
+                                name="" 
+                                value="Take a course"
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div id="navigator">
+                <ul id="list">
+                    <li class="list_item" id="list_item-1">
+                        <a href="#" class="list_item-link">Courses <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="list-second" id="list-second-1">
+                            <li><a class="list_item-link-2" href="#" >UI/UX Design</a></li>
+                            <li><a href="#" class="list_item-link-2">Software Development</a></li>
+                            <li><a href="#" class="list_item-link-2">Data Science</a></li>
+                        </ul> 
+                    </li>
+        
+                    <li class="list_item" id="list_item-2">
+                        <a href="#" class="list_item-link">For Employers <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="list-second" id="list-second-2">
+                            <li><a href="#" class="list_item-link-2">Hire Stutern Trained Graduates</a></li>
+                            <li><a href="#" class="list_item-link-2">Hire from wide pool</a></li>
+                            <li><a href="#" class="list_item-link-2">Post a Job</a></li>
+                        </ul>
+                    </li>
+                           
+                    <li class="list_item" id="list_item-3">
+                        <a href="#" class="list_item-link">For Talents <i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="list-second" id="list-second-3">
+                            <li><a href="#" class="list_item-link-2">Take a course</a></li>
+                            <li><a href="#" class="list_item-link-2">Appy to a Job</a></li>
+                        </ul>
+                    </li>
+                            
+                </ul>
+
+                <div id="nav-button-container">
+                    <input 
+                        id="left-nav-btn" 
+                        type="button" 
+                        name="" 
+                        value="Log in"
+                    >
+        
+                    <input 
+                        id="right-nav-btn" 
+                        type="button" 
+                        name="" 
+                        value="Take a course"
+                    >
+                </div>
+            </div>
+            
+        </nav>
+
+        <section id="hero-section">
+            <div id="left-hero-section">
+                <h1>
+                    Get the skills you need for the job you want
+                </h1>
+                
+                <p>
+                    Stutern is a skills development and job placement 
+                    platform that trains and connects young African 
+                    talents with long-term employment.
+                </p>
+
+                <div id="hero-btn-container">
+                    <input 
+                    id="hero-section-btn"
+                    type="button" 
+                    name="take a course" 
+                    value="Take a course"
+                >
+                </div>
+            </div>
+
+            <div id="right-hero-section">
+                <img 
+                    src="https://www.stutern.com/images/others/stutern-home-hero-image.png"
+                    alt="heroImage"
+                >
+            </div> 
+        </section> 
+
+    </header>
+
+    <section id="first-section">
+
+        <aside id="beEmployable">
+            <div id="b-e-div">
+                <p id="heading-1">
+                    Be employable in 6 <strike>years</strike> 
+                    <span id="months">months</span>
+                </p>
+
+                <p id="para-1">
+                    Join the Stutern Graduate Accelerator - 
+                    an immersive program that gives you the head start to 
+                    get a job in tech. With the right mentors, peer-to-peer 
+                    critiques, and challenging projects, any skill can be 
+                    mastered.
+                </p>
+            </div>
+        </aside>
+
+        <aside id="hiring">
+            <img 
+                id="hired" 
+                src="https://www.stutern.com/images/others/home-section.png"
+                alt="hired"
+            >
+        </aside>
+
+    </section>
+
+    <section id="second-section">
+
+        <div id="p-a">
+            <p id="heading-2">
+                We made it believable<br> 
+                They made it real
+            </p>
+    
+            <p id="para-2">
+                Stutern has helped many young talents 
+                launch new and promising careers.
+            </p>
+    
+        </div>
+
+        <div id="photo-gallery">
+
+            <div>
+                <div class="holder check" >
+                    <img 
+                    class="nrml" 
+                    src="https://www.stutern.com/images/people/ayowole-2.png" 
+                    alt="Ayowole"
+                    >
+
+                    <div class="data">
+                        <div>
+                            <p class="name">Ayowole Adenuga</p>
+                        </div>
+                        <div class="role">SOFTWARE ENGINEER</div>
+                        <div class="work">Interswitch 🇳🇬</div>
+                    </div>  
+                </div>  
+            </div>
+
+            <div>
+                <div class="holder">
+                    <img 
+                        class="nrml" 
+                        src="https://www.stutern.com/images/people/silas.png" 
+                        alt="Silas"
+                    >
+        
+                    <div class="data">
+                        <div>
+                            <p class="name">Silas Onmbayugh</p>
+                        </div>
+                        <div class="role">PRODUCT DESIGNER</div>
+                        <div class="work">Canva 🇦🇺</div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="holder check">
+                    <img 
+                        class="nrml" 
+                        src="https://www.stutern.com/images/people/jessica.png" 
+                        alt="Jessica"
+                    >
+        
+                    <div class="data">
+                        <div>
+                            <p class="name">Jessica Nkemeze</p>
+                        </div>
+                        <div class="role">FRONTEND ENGINEER</div>
+                        <div class="work">Quidax 🇳🇬</div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="holder">
+                    <img 
+                        class="nrml" 
+                        src="https://www.stutern.com/images/people/tobi.png" 
+                        alt="Tobi"
+                    >
+        
+                    <div class="data">
+                        <div>
+                            <p class="name">Oluwatobi Babalola</p>
+                        </div>
+                        <div class="role">PRODUCT DESIGNER</div>
+                        <div class="work">Farmerline 🇬🇭</div>
+                    </div>    
+                </div>
+            </div>
+
+            <div>
+                <div class="holder check">
+                    <img 
+                        class="nrml" 
+                        src="https://www.stutern.com/images/people/busayo.png" 
+                        alt="Busayo"
+                    >
+
+                    <div class="data">
+                        <div>
+                            <p class="name">Busayo Odesanya</p>
+                        </div>
+                        <div class="role">USER EXPERIENCE DESIGNER</div>
+                        <div class="work">Accedian 🇨🇦</div> 
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="holder">
+                    <img 
+                        class="nrml" 
+                        src="https://www.stutern.com/images/people/chinonso-2.png" 
+                        alt="Chinonso"
+                    >
+
+                <div class="data">
+                    <div>
+                        <p class="name">Chinonso Raymond</p>
+                    </div>
+                    <div class="role">PRODUCT DESIGNER</div>
+                    <div class="work">Paystack 🇳🇬</div> 
+                </div>
+
+                </div>
+            </div>
+
+            <div>
+                <div class="holder check">
+                    <img 
+                        class="nrml" 
+                        src="https://www.stutern.com/images/people/jide.png" 
+                        alt="Jide"
+                    >
+
+                    <div class="data">
+                        <div>
+                            <p class="name">Jide Olutola</p>
+                        </div>
+                        <div class="role">SOFTWARE DEVELOPER</div>
+                        <div class="work">Lopworks 🇳🇬</div> 
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="holder">
+                    <img 
+                        class="nrml" 
+                        src="https://www.stutern.com/images/people/eleanor.png" 
+                        alt="Eleanor"
+                    >
+
+                    <div class="data">
+                        <div>
+                            <p class="name">Eleanor Ezimah</p>
+                        </div>
+                        <div class="role">PRODUCT DESIGNER</div>
+                        <div class="work">Truebill 🇺🇸</div> 
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+
+    </section>
+
+    <section id="third-section">
+
+        <div id="third-section-div">
+            <div class="test">
+                <div id="para-3">
+                    "I enrolled to Stutern after my NYSC. 
+                    The programme was intense and I learned a lot. A few months 
+                    later, I had an interview and was asked to resume 
+                    my first job."
+                </div>
+            </div>
+    
+            <div id="info-eniola">
+                <img 
+                    id="eni-pic" 
+                    src="https://www.stutern.com/images/people/eniola.png"
+                    alt="Eniola"
+                >
+    
+                <div >
+                    <div class="test2">
+                        <p id="eniName">
+                            Eniola Aminu     
+                        </p>
+        
+                        <p id="eniRole">
+                            PRODUCT DESIGNER, COWRYWISE
+                        </p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+    </section>
+
+    <section id="fourth-section">
+        <div id="container-4">
+            <div id="columns-4">
+                <div id="container-4-text">
+                    <h1 id="heading-4">
+                        Trusted by Entrepreneurs and Hiring Managers globally
+                    </h1>
+            
+                    <p id="para-4">
+                        We match employers with trained and vetted candidates that are a perfect fit for their companies. That’s why companies love us.
+                    </p>
+                </div>
+            
+            
+                <div id="logo-gallery">
+                <div id="logo-container">
+                    <a href="#">
+                        <img 
+                            class="logo-photo" 
+                            src="https://www.stutern.com/images/companies/client-paystack.png" 
+                            alt="Paystack"
+                        >
+                    </a>
+        
+                    <a href="#">
+                        <img 
+                            class="logo-photo" 
+                            src="https://www.stutern.com/images/companies/client-ge.png" 
+                            alt="Ge"
+                        >
+                    </a>
+        
+                    <a href="#">
+                        <img 
+                            class="logo-photo" 
+                            src="https://www.stutern.com/images/companies/client-flutterwave.png" 
+                            alt="Flutterwave"
+                        >
+                    </a>
+        
+                    <a href="#">
+                        <img 
+                            class="logo-photo" 
+                            src="https://www.stutern.com/images/companies/client-reckitt_benckiser.png" 
+                            alt="Reckitt Benckiser"
+                        >
+                    </a>
+        
+                    <a href="#">
+                        <img 
+                            class="logo-photo" 
+                            src="https://www.stutern.com/images/companies/client-andela.png" 
+                            alt="Andela"
+                        >
+                    </a>
+                    <a href="#">
+                        <img 
+                            class="logo-photo"
+                            src="https://www.stutern.com/images/companies/client-sterling_bank.png" 
+                            alt="Sterling Bank"
+                        >
+                    </a>
+                   <a href="#">
+                        <img 
+                            class="logo-photo" 
+                            src="https://www.stutern.com/images/companies/client-opay.png" 
+                            alt="Opay"
+                        >
+                   </a>
+                    <a href="#">
+                        <img 
+                            class="logo-photo" 
+                            src="https://www.stutern.com/images/companies/client-cowrywise.png" 
+                            alt="Cowrywise"
+                        >
+                    </a>
+                    <a href="#">
+                        <img 
+                            class="logo-photo" 
+                            src="https://www.stutern.com/images/companies/client-jumia.png" 
+                            alt="Jumia"
+                        >
+                    </a>
+                    <a href="#">
+                        <img 
+                            class="logo-photo" 
+                            src="https://www.stutern.com/images/companies/client-lifebank.png" 
+                            alt="Lifebank"
+                        >
+                    </a>
+                    <a href="#">
+                        <img 
+                            class="logo-photo" 
+                            src="https://www.stutern.com/images/companies/client-interswitch.png" 
+                            alt="Interswitch"
+                        >
+                    </a>
+                   <a href="#">
+                    <img 
+                        class="logo-photo" 
+                        src="https://www.stutern.com/images/companies/client-goldman_sachs.png" 
+                        alt="Goldmansachs"
+                    >
+                   </a>
+                    <a href="#">
+                        <img 
+                            class="logo-photo" 
+                            src="https://www.stutern.com/images/companies/client-terragon.png" 
+                            alt="Terragon"
+                        >
+                    </a>
+                    <a href="#">
+                        <img 
+                            class="logo-photo" 
+                            src="https://www.stutern.com/images/companies/client-gtbank.png" 
+                            alt="GT Bank"
+                        >
+                    </a>
+                    <a href="#">
+                        <img 
+                            class="logo-photo" 
+                            src="https://www.stutern.com/images/companies/client-venture_garden.png" 
+                            alt="Venture Garden"
+                        >
+                    </a>
+                </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+
+    <section>
+
+        
+        <div id="final-div">
+            <div id="container">
+                <div id="container-column">
+                    <div>
+                        <h1>Ready to talk?</h1>
+                    </div>
+                    <div>
+                        <h1>We're here to help</h1>
+                    </div>
+                </div>
+
+                <div id="button-flex">
+                    <div class="button-div">
+                        <input 
+                            id="button-1" 
+                            type="button" 
+                            name="" 
+                            value="I want to hire"
+                        >
+                    </div>
+            
+                    <div class="button-div">
+                        <input 
+                            id="button-2" 
+                            type="button" 
+                            name="" 
+                            value="I want to be hired"
+                        >
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+    </section>
+
+    <footer>
+
+        <div id="first-footer-div">
+
+            <img 
+                src="https://miro.medium.com/max/803/1*zMLNlDX_DWJ780KIbiwoUA.png" 
+                alt="Stuttern"
+            >
+
+            <div>
+                <p>
+                    team@stutern.com
+                </p>
+
+                <p>
+                    +234 909 999 7645
+                </p>    
+            </div>
+
+        </div>
+
+        <div class="second-footer-div">
+            <p id="course">COURSES</p>
+
+            <ul>
+                <li>UI/UX</li>
+                <li>Software Development</li>
+                <li>Data Science</li>
+            </ul>
+        </div>
+
+        <div class="second-footer-div">
+            <p class="mid">DISCOVER</p>
+            
+            <ul>
+                <li>FAQs</li>
+                <li>Terms & Policy</li>
+            </ul>
+        </div>
+
+        <div class="second-footer-div">
+            <p class="mid" id="company">COMPANY</p>
+
+            <ul>
+                <li>About</li>
+                <li>Research</li>
+            </ul>
+        </div>
+
+    </footer>
+
+    <script src="index.js"></script>
+</body>    
